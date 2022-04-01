@@ -1,0 +1,24 @@
+{
+  "name": "ghost-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [],
+  "author": "Tyler Potts <hello@tylerpotts.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bitcoin-price": "^1.0.1",
+    "bitcoinjs-lib": "^6.0.1",
+    "coingecko-api": "^1.0.10",
+    "discord.js": "^13.6.0",
+    "dotenv": "^10.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
